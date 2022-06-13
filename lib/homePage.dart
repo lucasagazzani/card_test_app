@@ -76,8 +76,8 @@ class _HomePageState extends State<HomePage> {
                               child: IconButton(
                                 icon: Icon(
                                   product.like
-                                      ? Icons.favorite_border
-                                      : Icons.favorite,
+                                      ? Icons.favorite
+                                      : Icons.favorite_border,
                                   color: Colors.black,
                                   size: 25,
                                 ),
